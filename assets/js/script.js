@@ -1,13 +1,5 @@
-class Tasklist {
-    constructor(doing){
-        this.doing = doing;
-    }
-}
+const tasks = [];
 
-function addTaskList(){
-    const task = document.getElementById("InputAdd").value;
-    const list = new Tasklist(task);
-    console.log(list)
-    document.getElementById('result').innerHTML += `<div id= "results"><p id="list1">${list.doing}</p>button>`
-
+function send(){
+    let taskInput = document.getElementById('type Task'); let texto = taskInput.value
 }
